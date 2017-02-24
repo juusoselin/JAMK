@@ -5,4 +5,4 @@
 
 ## Table of Contents:
 ### Cyber Security Implementation in Practice
-1. [Firewalls](#Implementation/Firewall)
+1. [Firewalls](Implementation/Firewall)
