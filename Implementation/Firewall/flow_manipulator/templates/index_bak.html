@@ -1,0 +1,36 @@
+$def with (flows, message)
+
+
+
+
+
+
+
+$if message:
+  $message
+
+$if flows:
+  Current flows
+
+  $for index, flow in enumerate(flows):
+    pass
+
+    flow[0]['table_id']
+    flow[0]['packet_count']
+    flow[0]['hard_timeout']
+
+    $for match in flow[0]['match']:
+      $for key, value in match.items():
+        $if key == 'eth_type':
+          $value
+
+    $for instruction in flow[0]['instructions']:
+      $for key, value in instruction.items():
+        $if isinstance(value, list):
+          $key -> (
+          $for dict in value:
+            $for item, value in dict.items():
+            $item : $value
+          )
+        $else:
+          $key : $value
