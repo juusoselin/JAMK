@@ -1,0 +1,13 @@
+{
+  "flow":{
+    "priority":40000,
+    "table_id":1,
+    "idle_timeout":0,
+    "match":[
+      {
+        "eth_src": "b4:99:ba:ed:c1:fd"
+      }
+    ],
+    "instructions":[]
+  }
+}

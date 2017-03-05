@@ -1,0 +1,23 @@
+{
+  "flow":{
+    "priority":50000,
+    "table_id":0,
+    "idle_timeout":0,
+    "match":[
+      {
+        "eth_src": "b8:27:eb:f6:5e:03"
+      },
+      {
+        "eth_type": "ipv4"
+      },
+      {
+        "ip_proto": "tcp"
+      }
+    ],
+    "instructions":[
+      {
+        "goto_table": 1
+      }
+    ]
+  }
+}

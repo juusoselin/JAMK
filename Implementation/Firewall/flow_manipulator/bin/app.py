@@ -20,10 +20,10 @@ app = web.application(urls, globals())
 render = web.template.render('templates/')
 
 # Controller variables
-controller_ip = '172.17.6.69'
+controller_ip = '10.0.1.210'
 auth = hp.XAuthToken(user='sdn', password='skyline', server=controller_ip)
 api = hp.Api(controller=controller_ip, auth=auth)
-dpid = '00:00:00:00:00:00:00:01'
+dpid = '00:00:70:b3:d5:6c:d6:39'
 
 #####################
 #   Web pages       #
@@ -52,12 +52,14 @@ class Index:
                     if key == 'ipv4_src':
                         dict_tmp = {}
                         dict_tmp[key] = value.encode('ascii', 'ignore')
-                        dict_tmp['mask'] = ipv4_src_mask.encode('ascii', 'ignore')
+                        if ipv4_src_mask:
+                            dict_tmp['mask'] = ipv4_src_mask.encode('ascii', 'ignore')
                         tmp_value = dict_tmp
                     elif key == 'ipv4_dst':
                         dict_tmp = {}
                         dict_tmp[key] = value.encode('ascii', 'ignore')
-                        dict_tmp['mask'] = ipv4_dst_mask.encode('ascii', 'ignore')
+                        if ipv4_src_mask:
+                            dict_tmp['mask'] = ipv4_dst_mask.encode('ascii', 'ignore')
                         tmp_value = dict_tmp
                     else:
                         tmp_value[key] = value.encode('ascii', 'ignore')

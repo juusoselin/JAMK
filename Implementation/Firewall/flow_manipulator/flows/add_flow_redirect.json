@@ -1,0 +1,34 @@
+{
+  "flow":
+  {
+    "table_id": 1,
+    "priority": 30000,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "match": [
+      {
+        "ipv4_dst":"104.31.12.168"
+      },
+      {
+        "ip_proto":"tcp"
+      },
+      {
+        "eth_type":"ipv4"
+      }
+    ],
+    "instructions": [
+      {
+        "apply_actions": [
+          {
+            "set_field": {
+              "ipv4_dst": "109.105.109.219"
+            }
+          },
+          {
+            "output":3
+          }
+        ]
+      }
+    ]
+  }
+}

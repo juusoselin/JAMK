@@ -1,0 +1,52 @@
+Datapaths:
+GET /sdn/v2.0/of/datapaths/00:64:74:46:a0:ff:07:00
+
+List flows:
+GET /sdn/v2.0/of/datapaths/00:64:74:46:a0:ff:07:00/flows
+
+Post Flows:
+POST /sdn/v2.0/of/datapaths/00:64:74:46:a0:ff:07:00/flows
+
+Source and destination IP:
+{
+  "flow":{
+    "priority":30000,
+    "table_id":200,
+    "idle_timeout":60,
+    "match":[
+      {
+        "ipv4_src":"192.0.2.1"
+      },
+      {
+        "ipv4_dst":"192.0.2.22"
+      },
+      {
+        "ip_proto":"tcp"
+      },
+      {
+        "eth_type":"ipv4"
+      },
+      {
+        "tcp_dst":"80"
+      }
+    ],
+    "instructions":[
+      {
+      "apply_actions":[
+        {
+          "output":1
+        }
+        ]
+      }
+    ]
+  }
+}
+
+Update flow:
+PUT /sdn/v2.0/of/datapaths/00:64:74:46:a0:ff:07:00/flows
+
+Delete flow:
+DELETE /sdn/v2.0/of/datapaths/00:64:74:46:a0:ff:07:00/flows
+
+List Ports:
+GET /sdn/v2.0/of/datapaths/00:64:74:46:a0:ff:07:00/ports

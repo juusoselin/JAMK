@@ -1,0 +1,11 @@
+{
+  "flow":
+  {
+    "table_id": 1,
+    "priority": 10,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "match": [],
+    "instructions": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "flow":{
+    "priority":30000,
+    "table_id":1,
+    "idle_timeout":0,
+    "match":[
+      {
+        "ipv4_src":"10.0.1.0",
+        "mask":"255.255.255.0"
+      },
+      {
+        "ip_proto":"udp"
+      },
+      {
+        "eth_type":"ipv4"
+      },
+      {
+        "udp_dst":"53"
+      }
+    ],
+    "instructions":[
+      {
+      "apply_actions":[
+        {
+          "output":3
+        }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "flow":{
+    "priority":30000,
+    "table_id":1,
+    "idle_timeout":0,
+    "match":[
+      {
+        "ipv4_src":"10.0.1.100"
+      },
+      {
+        "ipv4_dst":"10.0.1.11"
+      },
+      {
+        "ip_proto":"tcp"
+      },
+      {
+        "eth_type":"ipv4"
+      },
+      {
+        "tcp_src":"22"
+      }
+    ],
+    "instructions":[
+      {
+      "apply_actions":[
+        {
+          "output":1
+        }
+        ]
+      }
+    ]
+  }
+}

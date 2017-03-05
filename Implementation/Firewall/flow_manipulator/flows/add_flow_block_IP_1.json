@@ -1,0 +1,19 @@
+{
+  "flow":{
+    "priority":40000,
+    "table_id":1,
+    "idle_timeout":0,
+    "match":[
+      {
+        "ipv4_dst":"31.13.65.36"
+      },
+      {
+        "ip_proto":"tcp"
+      },
+      {
+        "eth_type":"ipv4"
+      }
+    ],
+    "instructions":[]
+  }
+}
