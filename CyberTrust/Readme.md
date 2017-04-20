@@ -1,6 +1,6 @@
 # Cyber Trust
 
-This repo contains some of the tools and scripts for HPE VAN SDN Controllers and HPE Network Protectors REST API I used during the research period in the Cyber Trust research project, under the work package 3, "Security in New Network Technologies".
+This repo contains some of the tools and scripts I wrote and used during the research period in the Cyber Trust research project. Since our work package was called "Security in New Network Technologies", this research focused on software-defined-networks (SDN), hence these tools are mostly created for HPEs commercial SDN products.
 
 
 Read more about Cyber Trust:
@@ -14,8 +14,8 @@ Read more about Cyber Trust:
 
 ## random_dns_lookup
 
-This Bash script was run inside multiple [mininet](http://http://mininet.org) hosts to generate random DNS queries, using both malicious and clean URLs, during the first phase of blocking and logging malicious traffic with HPE Network Protector.
+This Bash script was run inside multiple [mininet](http://mininet.org) hosts to generate random DNS queries, both malicious and legit, during the first phase of blocking and logging malicious traffic with the HPE Network Protector.
 
 ## Protector_ACL_and_Blacklist
 
-These Python scripts add URLs to ACL as well as FQDNs to the custom blacklists and generating policies based on the profiles using the REST API. It contains also scripts to test how many individual list and entries can be added.
+These Python scripts add URLs to ACL as well as FQDNs to the custom blacklists and generates also policy based on the profile using the REST API. It contains also scripts to test how many individual list and entries can be added.
