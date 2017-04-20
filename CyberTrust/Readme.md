@@ -9,7 +9,9 @@ Read more about Cyber Trust:
 
 [CybertTrust.fi](http://cybertrust.fi)
 
-> Please note, that these applications are far from finished, they are developed only enough to provide the functionality needed for the assignment. Therefore it might and probably will break at some point. No more development efforts are put to these applications.
+
+> Please note, that these applications are far from finished applications, they are developed only enough to provide the functionality needed for the task at hand. Therefore it might and probably will break at some point. No more development efforts are put to these applications.
+
 
 ## random_dns_lookup
 
