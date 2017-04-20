@@ -5,9 +5,8 @@ This repo contains some of the tools and scripts for HPE VAN SDN Controllers and
 
 Read more about Cyber Trust:
 
-[Cyber Trust @ JAMK](https://cybertrust.labranet.jamk.fi/ct/public)
-
-[CybertTrust.fi](http://cybertrust.fi)
+- [Cyber Trust @ JAMK](https://cybertrust.labranet.jamk.fi/ct/public)
+- [CybertTrust.fi](http://cybertrust.fi)
 
 
 > Please note, that these applications are far from finished applications, they are developed only enough to provide the functionality needed for the task at hand. Therefore it might and probably will break at some point. No more development efforts are put to these applications.
