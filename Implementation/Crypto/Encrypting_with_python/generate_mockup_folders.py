@@ -14,10 +14,16 @@ def main():
 	max_size = int(parameters[1]) * 1000000000
 	size_counter = 0
 	file_counter = 0
-	while size_counter < max_size and file_counter < max_files:
-		current_file_size = create_a_file('Documents_folder', max_files, max_size)
-		size_counter = size_counter + current_file_size
-		file_counter = file_counter + 1
+	folder = "Documents_" + str(parameters[1]) + 'GB_' + str(max_files) + 'files'
+	if os.path.isdir(folder):
+		print("Folder already exists")
+		sys.exit()
+	else:
+		os.makedirs(folder)
+		while size_counter < max_size and file_counter < max_files:
+			current_file_size = create_a_file(folder, max_files, max_size)
+			size_counter = size_counter + current_file_size
+			file_counter = file_counter + 1
 
 
 def arguments(argv):

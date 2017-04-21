@@ -8,42 +8,46 @@ from cryptography.hazmat.primitives import hashes, padding, serialization
 from cryptography.hazmat.primitives.asymmetric import padding as asymmetric_padding
 from cryptography.hazmat.backends import default_backend
 
-log_file = open('encryption.log', 'a')
 
 ## Logging  --  Record start time, duration, end time and process
 def logging(method, algorithm):
-	start_pt = time.process_time()
-	start_time = time.time()
+	for directory in os.listdir(os.getcwd()):
+		if os.path.isdir(directory):
+			path = directory
 
-	print("Encryption process started with " + method + " at \t\t" + str(start_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(start_time))) + ")")
-	log_file.write("Encryption process started with " + method + " at \t\t" + str(start_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(start_time))) + ")\n")
+			log_file = open('encryption.log', 'a')
 
-	print("Encrypting...")
-	log_file.write("Encrypting...\n")
-	files(method, algorithm)
+			start_pt = time.process_time()
+			start_time = time.time()
 
-	end_pt = time.process_time()
-	end_time = time.time()
-	print("Encryption process ended at \t\t\t" + str(end_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(end_time))) + ")\n")
+			print("Encryption process started with " + method + " at \t\t" + str(start_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(start_time))) + ")")
+			log_file.write("Encryption process started with " + method + " at \t\t" + str(start_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(start_time))) + ")\n")
 
-	print("Process time elapsed (seconds): \t\t" + str(end_pt - start_pt))
-	print("Total time elapsed (seconds): \t\t\t" + str(end_time - start_time))
-	print('-----------------------------------------------------------------')
+			print("Encrypting folder " + path + "...")
+			log_file.write("Encrypting " + path + "...\n")
+			files(method, algorithm, path)
 
-	log_file.write("Encryption process ended at \t\t\t" + str(end_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(end_time))) + ")\n")
+			end_pt = time.process_time()
+			end_time = time.time()
+			print("Encryption process ended at \t\t\t" + str(end_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(end_time))) + ")\n")
 
-	log_file.write("Process time elapsed (seconds): \t\t" + str(end_pt - start_pt) + '\n')
-	log_file.write("Total time elapsed (seconds): \t\t\t" + str(end_time - start_time) + '\n')
-	log_file.write('-----------------------------------------------------------------\n')
+			print("Process time elapsed (seconds): \t\t" + str(end_pt - start_pt))
+			print("Total time elapsed (seconds): \t\t\t" + str(end_time - start_time))
+			print('-----------------------------------------------------------------')
 
+			log_file.write("Encryption process ended at \t\t\t" + str(end_pt) + " (" + str(time.strftime("%Y-%m-%d %H:%M:%S %Z", time.gmtime(end_time))) + ")\n")
+
+			log_file.write("Process time elapsed (seconds): \t\t" + str(end_pt - start_pt) + '\n')
+			log_file.write("Total time elapsed (seconds): \t\t\t" + str(end_time - start_time) + '\n')
+			log_file.write('-----------------------------------------------------------------\n')
+			log_file.close()
 
 ## File and folders  --  Search all the files in given directory
-def files(method, algorithm):
-	path = 'Documents_folder/'
+def files(method, algorithm, path):
 	for filename in os.listdir(path):
 		if 'enc' not in filename:
-			file = open(path + filename, 'rb').read()
-			print('Encrypting file: ' + path + filename)
+			file = open(path + '/' + filename, 'rb').read()
+			print('Encrypting file: ' + path + '/' + filename)
 			if algorithm == 'symmetric':
 				encrypted_file = symmetric_encryption(file, method)
 			elif algorithm == 'asymmetric':
@@ -55,7 +59,7 @@ def files(method, algorithm):
 				encrypted_file = bytes(encrypted_file, encoding="UTF-8")
 			else:
 				sys.exit()
-			f = open(path + filename + '.enc_' + method, 'wb')
+			f = open(path + '/' + filename + '.enc_' + method, 'wb')
 			f.write(encrypted_file)
 			f.close()
 
