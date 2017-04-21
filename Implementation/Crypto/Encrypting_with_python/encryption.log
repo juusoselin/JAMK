@@ -1,0 +1,144 @@
+Encryption process started with AES at 		0.095029971 (2017-04-21 13:28:27 GMT)
+Encrypting Documents_1GB_1000files...
+Encryption process ended at 			2.957527001 (2017-04-21 13:28:29 GMT)
+Process time elapsed (seconds): 		2.8624970299999997
+Total time elapsed (seconds): 			2.924379587173462
+-----------------------------------------------------------------
+Encryption process started with AES at 		2.9576460190000002 (2017-04-21 13:28:29 GMT)
+Encrypting Documents_10GB_100files...
+Encryption process ended at 			41.76989043 (2017-04-21 13:29:25 GMT)
+Process time elapsed (seconds): 		38.812244410999995
+Total time elapsed (seconds): 			55.215914726257324
+-----------------------------------------------------------------
+Encryption process started with AES at 		41.77014793 (2017-04-21 13:29:25 GMT)
+Encrypting Documents_1GB_100files...
+Encryption process ended at 			45.248856682 (2017-04-21 13:29:32 GMT)
+Process time elapsed (seconds): 		3.478708752000003
+Total time elapsed (seconds): 			6.784284591674805
+-----------------------------------------------------------------
+Encryption process started with AES at 		45.248997268 (2017-04-21 13:29:32 GMT)
+Encrypting Documents_10GB_1000files...
+Encryption process ended at 			78.39972926 (2017-04-21 13:30:38 GMT)
+Process time elapsed (seconds): 		33.150731992000004
+Total time elapsed (seconds): 			66.77327275276184
+-----------------------------------------------------------------
+Encryption process started with Camellia at 		0.088763727 (2017-04-21 13:35:31 GMT)
+Encrypting Documents_1GB_1000files...
+Encryption process ended at 			8.167819923 (2017-04-21 13:35:40 GMT)
+Process time elapsed (seconds): 		8.079056196
+Total time elapsed (seconds): 			8.928433179855347
+-----------------------------------------------------------------
+Encryption process started with Camellia at 		8.167992073 (2017-04-21 13:35:40 GMT)
+Encrypting Documents_10GB_100files...
+Encryption process ended at 			80.956802618 (2017-04-21 13:37:10 GMT)
+Process time elapsed (seconds): 		72.78881054499999
+Total time elapsed (seconds): 			90.56243968009949
+-----------------------------------------------------------------
+Encryption process started with Camellia at 		80.95696883 (2017-04-21 13:37:10 GMT)
+Encrypting Documents_1GB_100files...
+Encryption process ended at 			88.007001671 (2017-04-21 13:37:22 GMT)
+Process time elapsed (seconds): 		7.050032841000004
+Total time elapsed (seconds): 			11.604302883148193
+-----------------------------------------------------------------
+Encryption process started with Camellia at 		88.007204793 (2017-04-21 13:37:22 GMT)
+Encrypting Documents_10GB_1000files...
+Encryption process ended at 			159.706487083 (2017-04-21 13:39:26 GMT)
+Process time elapsed (seconds): 		71.69928229000001
+Total time elapsed (seconds): 			124.31770610809326
+-----------------------------------------------------------------
+Encryption process started with TripleDES at 		0.099004647 (2017-04-21 13:41:02 GMT)
+Encrypting Documents_1GB_1000files...
+Encryption process ended at 			35.941285586 (2017-04-21 13:41:39 GMT)
+Process time elapsed (seconds): 		35.842280939
+Total time elapsed (seconds): 			37.16766333580017
+-----------------------------------------------------------------
+Encryption process started with TripleDES at 		35.9415025 (2017-04-21 13:41:39 GMT)
+Encrypting Documents_10GB_100files...
+Encryption process ended at 			387.158677557 (2017-04-21 13:47:44 GMT)
+Process time elapsed (seconds): 		351.21717505699996
+Total time elapsed (seconds): 			364.5238506793976
+-----------------------------------------------------------------
+Encryption process started with TripleDES at 		387.158887207 (2017-04-21 13:47:44 GMT)
+Encrypting Documents_1GB_100files...
+Encryption process ended at 			424.00762123 (2017-04-21 13:48:24 GMT)
+Process time elapsed (seconds): 		36.84873402299996
+Total time elapsed (seconds): 			40.451136112213135
+-----------------------------------------------------------------
+Encryption process started with TripleDES at 		424.007815744 (2017-04-21 13:48:24 GMT)
+Encrypting Documents_10GB_1000files...
+Encryption process ended at 			771.795921845 (2017-04-21 13:54:38 GMT)
+Process time elapsed (seconds): 		347.7881061009999
+Total time elapsed (seconds): 			374.33694291114807
+-----------------------------------------------------------------
+Encryption process started with Blowfish at 		0.099442107 (2017-04-21 13:55:06 GMT)
+Encrypting Documents_1GB_1000files...
+Encryption process ended at 			10.429010398 (2017-04-21 13:55:18 GMT)
+Process time elapsed (seconds): 		10.329568291000001
+Total time elapsed (seconds): 			11.542726039886475
+-----------------------------------------------------------------
+Encryption process started with Blowfish at 		10.429513288 (2017-04-21 13:55:18 GMT)
+Encrypting Documents_10GB_100files...
+Encryption process ended at 			101.403757895 (2017-04-21 13:57:07 GMT)
+Process time elapsed (seconds): 		90.974244607
+Total time elapsed (seconds): 			109.71160960197449
+-----------------------------------------------------------------
+Encryption process started with Blowfish at 		101.403893769 (2017-04-21 13:57:07 GMT)
+Encrypting Documents_1GB_100files...
+Encryption process ended at 			110.823687109 (2017-04-21 13:57:21 GMT)
+Process time elapsed (seconds): 		9.419793339999998
+Total time elapsed (seconds): 			14.104958295822144
+-----------------------------------------------------------------
+Encryption process started with Blowfish at 		110.823873401 (2017-04-21 13:57:21 GMT)
+Encrypting Documents_10GB_1000files...
+Encryption process ended at 			202.484307414 (2017-04-21 13:59:48 GMT)
+Process time elapsed (seconds): 		91.660434013
+Total time elapsed (seconds): 			146.14293575286865
+-----------------------------------------------------------------
+Encryption process started with ARC4 at 		0.08541124300000001 (2017-04-21 14:10:15 GMT)
+Encrypting Documents_1GB_1000files...
+Encryption process ended at 			4.913049978 (2017-04-21 14:10:21 GMT)
+Process time elapsed (seconds): 		4.827638735
+Total time elapsed (seconds): 			6.0712571144104
+-----------------------------------------------------------------
+Encryption process started with ARC4 at 		4.913202293 (2017-04-21 14:10:21 GMT)
+Encrypting Documents_10GB_100files...
+Encryption process ended at 			51.906422011000004 (2017-04-21 14:11:26 GMT)
+Process time elapsed (seconds): 		46.993219718000006
+Total time elapsed (seconds): 			64.65766334533691
+-----------------------------------------------------------------
+Encryption process started with ARC4 at 		51.90656129 (2017-04-21 14:11:26 GMT)
+Encrypting Documents_1GB_100files...
+Encryption process ended at 			56.452747186 (2017-04-21 14:11:34 GMT)
+Process time elapsed (seconds): 		4.546185896000004
+Total time elapsed (seconds): 			7.72868275642395
+-----------------------------------------------------------------
+Encryption process started with ARC4 at 		56.453065045 (2017-04-21 14:11:34 GMT)
+Encrypting Documents_10GB_1000files...
+Encryption process ended at 			101.000468273 (2017-04-21 14:12:50 GMT)
+Process time elapsed (seconds): 		44.54740322799999
+Total time elapsed (seconds): 			76.07160472869873
+-----------------------------------------------------------------
+Encryption process started with IDEA at 		0.089097302 (2017-04-21 14:16:33 GMT)
+Encrypting Documents_1GB_1000files...
+Encryption process ended at 			13.325372023 (2017-04-21 14:16:48 GMT)
+Process time elapsed (seconds): 		13.236274721
+Total time elapsed (seconds): 			14.43896746635437
+-----------------------------------------------------------------
+Encryption process started with IDEA at 		13.325627219 (2017-04-21 14:16:48 GMT)
+Encrypting Documents_10GB_100files...
+Encryption process ended at 			143.758198132 (2017-04-21 14:19:18 GMT)
+Process time elapsed (seconds): 		130.43257091299998
+Total time elapsed (seconds): 			149.9158742427826
+-----------------------------------------------------------------
+Encryption process started with IDEA at 		143.758395731 (2017-04-21 14:19:18 GMT)
+Encrypting Documents_1GB_100files...
+Encryption process ended at 			155.947388501 (2017-04-21 14:19:33 GMT)
+Process time elapsed (seconds): 		12.188992769999999
+Total time elapsed (seconds): 			14.927916288375854
+-----------------------------------------------------------------
+Encryption process started with IDEA at 		155.947637921 (2017-04-21 14:19:33 GMT)
+Encrypting Documents_10GB_1000files...
+Encryption process ended at 			275.60568762 (2017-04-21 14:22:02 GMT)
+Process time elapsed (seconds): 		119.65804969900003
+Total time elapsed (seconds): 			149.7347276210785
+-----------------------------------------------------------------
