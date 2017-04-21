@@ -1,6 +1,15 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
 
+#################################################################################################################
+#																												#
+#	This script generates a folder containing random files 														#
+#																												#
+#	Usage: 	generate_mockup_folders.py --max-files 1000 --max-size 1											#
+#																												#
+#			(Generates folder containing less than 1000 files with total size of the folder less thab 1 GB)		#
+#																												#
+#################################################################################################################
 
 ## Imports
 import sys, os, random, getopt, string
