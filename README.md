@@ -6,6 +6,7 @@
 ## Table of Contents:
 ### Cyber Security Implementation in Practice
 1. [Firewalls](Implementation/Firewall)
+2. [Encryption](Implementation/Crypto)
 
 
 ### Cyber Trust research project
