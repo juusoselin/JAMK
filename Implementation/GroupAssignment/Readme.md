@@ -66,7 +66,7 @@
 - Analysis of risk exposure
 - PDCA
 
-# Other
+# Other (should be included somewhere)
 - Legal and regulatory compliance (i.e. GPDR)
 - Business continuity management
 	- Business impact analysis
