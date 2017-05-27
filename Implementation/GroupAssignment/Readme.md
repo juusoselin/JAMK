@@ -44,8 +44,8 @@
 - Risk monitoring
 
 # Vulnerabilities
-- Scanning
-- Management
+- Scanning (Nessus etc.)
+- Management (SANS’ template on Vulnerability Assessment Policy (2012))
 
 # Implementing the security controls
 - Security policies
@@ -61,6 +61,8 @@
 - Network monitoring
 
 # Auditing and verifying security controls
+- Auditing process
+- Results
 
 # Results, Conclusions, Discussion and Future Developements
 - Analysis of risk exposure
@@ -73,6 +75,6 @@
 	- Incident response plan and management
 	- Disaster recovery plan and management
 
-# Appendices
-
 # References
+
+# Appendices
