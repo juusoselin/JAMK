@@ -5,9 +5,10 @@
 
 # Company information (Eleven7)
 - Business model and analysis of current business
-- Relations to other companies
+- Relations to other companies and organizations
 - Network environment
 - Integrating security into the business processes
+- Cyber security strategy
 
 # Assets
 - Company assets
@@ -47,6 +48,7 @@
 - Management
 
 # Implementing the security controls
+- Security policies
 - Cryptography
 - Identity and access management
 - Firewalls
@@ -63,6 +65,13 @@
 # Results, Conclusions, Discussion and Future Developements
 - Analysis of risk exposure
 - PDCA
+
+# Other
+- Legal and regulatory compliance (i.e. GPDR)
+- Business continuity management
+	- Business impact analysis
+	- Incident response plan and management
+	- Disaster recovery plan and management
 
 # Appendices
 
